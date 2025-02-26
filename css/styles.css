@@ -1,0 +1,220 @@
+/* General Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff0f6;
+  color: #5a3e4e;
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+  color: #d63384;
+}
+
+p {
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background-color: #ff99cc;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #d63384;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(rgba(255, 153, 204, 0.7), rgba(255, 51, 153, 0.7)), url('salon-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 48px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 25px;
+  background-color: #d63384;
+  color: white;
+  text-decoration: none;
+  border-radius: 25px;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background-color: #ff66b2;
+}
+
+/* Service Section */
+.service-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 50px;
+  gap: 20px;
+}
+
+.service-item {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 300px;
+}
+
+.service-item img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Contact Page */
+.contact {
+  text-align: center;
+  padding: 50px;
+}
+
+.contact-form {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 50%;
+  margin: auto;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form input, .contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ff66b2;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  background: #d63384;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.contact-form button:hover {
+  background: #ff66b2;
+}
+
+/* Footer */
+footer {
+  background-color: #ff99cc;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+}
+.service-card {
+  
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card img {
+  width: 30%;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(255, 105, 180, 0.5);
+}
+
+.service-card:hover img {
+  transform: scale(1.1);
+}
+.social-media {
+    text-align: center;
+    padding: 30px 0;
+    background: #ffe4e1; /* Soft pink background */
+    border-radius: 100px;
+}
+
+.social-media h2 {
+    color: #ff1493;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 50%;
+}
+
+.social-icons a {
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-icons img {
+    width: 10px; /* Adjust size */
+    height: 10px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.social-icons a:hover img {
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(255, 105, 180, 0.5);
+}
+.social-icons a {
+    font-size: 30px;
+    color: #ff69b4;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+    transform: scale(1.2);
+    color: #ff1493;
+}

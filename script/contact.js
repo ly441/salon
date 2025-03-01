@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
   document
-    .getElementById("appointment-form")
+    .getElementById("contact-form")
     .addEventListener("submit", function (event) {
       event.preventDefault();
 
@@ -11,11 +11,13 @@ document.addEventListener("DOMContentLoaded", function () {
       if (name && email && date) {
         document.getElementById(
           "confirmation"
-        ).innerText = `Thank you, ${name}. Your appointment on ${date} has been booked!`;
+        ).innerText= `Thank you, ${name}. Your appointment on ${date} has been booked!`;
         document.getElementById("appointment-form").reset();
       } else {
         document.getElementById("confirmation").innerText =
           "Please fill in all fields.";
       }
+
+        
     });
 });
